@@ -1,0 +1,204 @@
+/* primaryColor: #0073b1 */
+
+
+/* Start of login section */
+
+.login-section .icon{
+    text-align: center;
+    padding: 32px 0 24px 0;
+}
+
+.login-section p{
+    font-size: 1rem;
+    line-height: 1.75;
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    padding-bottom: 15px;
+}
+
+/* forgetPassword, SignUp anchors*/
+.login-section a{
+    color:#0a66c2 !important;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-section .invalid-input{
+    text-align: left !important;
+    font-size: 1rem;
+    line-height: 1.42857;
+    font-weight: 600;
+    color: rgba(0,0,0,0.9);
+    margin: 4px 0 12px 0;
+    color: #d11124;
+    font-weight: 500;
+    display: none;
+}
+
+.login-section .form-group input{
+    width: 95%;
+    height: 54px !important;
+    padding-left: 5px;
+    padding-top: 10px;
+    border-color: black;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.login-section .form-group label{
+    position: absolute;
+    font-size: 18px;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    cursor: text;
+    user-select: none;
+    transition: 0.15s ease-in-out;
+}
+
+/* start of Email (input,label) style */
+
+.login-section .form-group .email-label{
+    top: 10%;
+    left: 35px;
+}
+
+.login-section .form-group .email-input:focus + .email-label{
+    border-color: #0a66c2 !important;
+    font-size: 14px;
+    top:4%;    
+    left: 27px;
+    border-width: 1px !important;
+    outline:none !important;
+}
+
+.login-section .form-group .email-input-notEmpty{
+    border-color: #0a66c2 !important;
+    font-size: 14px;
+    top:6%;    
+    left: 27px;
+    border-width: 1px !important;
+    outline:none !important;
+}
+
+/* end of  Email (input,label,span"errors") style */
+
+/* start of Password (input,label) style */
+
+.login-section .form-group .password-label{
+    top: 42%;
+    left: 35px;
+}
+
+.login-section .form-group .password-input:focus + .password-label{
+    border-color: #0a66c2 !important;
+    font-size: 14px;
+    top:38%;    
+    left: 27px;
+    border-width: 1px !important;
+    outline:none !important;
+}
+
+.login-section .form-group .password-input-notEmpty{
+    border-color: #0a66c2 !important;
+    font-size: 14px;
+    top:39%;    
+    left: 27px;
+    border-width: 1px !important;
+    outline:none !important;
+}
+
+/* end of Password (input,label) style */
+
+/* start of Password toggle Button style */
+
+.login-section .form-group .passwordVisbilityToggleBtn{
+    position: absolute;
+    font-size: 14px;
+    top: 44%;
+    font-weight: 500;
+    color: #0a66c2;
+    right: 37px;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+    transition: 0.15s ease-in-out;
+}
+
+.login-section .form-group .passwordVisbilityToggleBtnClicked{
+    background-color: #cde6ff !important;
+    border-radius: 28px !important;
+    padding: 4px 5px;
+}
+
+.login-section .form-group .passwordVisbilityToggleBtn:hover{
+    background-color: #cde6ff !important;
+    border-radius: 28px !important;
+    padding: 4px 5px;
+}
+
+/* end of Password toggle Button style */
+
+/* SignIn button */
+.login-section .form-group button{
+    width: 95%; 
+    height: 52px;
+    border-radius: 50px;
+    background-color: #0a66c2;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* End of login section */
+
+/* start of footer section */
+
+footer{
+    border-top: 1px solid rgba(0,0,0,0.15);
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    right:0%;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+footer ul li{
+    margin-right: 10px;
+    font-size: 13px;
+    cursor: pointer;
+} 
+
+footer ul li svg{
+    width: 56px;
+    display: inline;
+    padding: 0px !important;
+    margin: 0px;
+    height: 15px;
+}
+
+footer ul li a{
+    color: black;
+}
+
+footer ul li a:hover{
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    footer{
+        display: none;
+    }
+}
+
+/* End of footer section */
